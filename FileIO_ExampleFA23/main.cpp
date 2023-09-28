@@ -26,5 +26,8 @@ int main()
 
 	cout << data << endl << data2 << endl << data3 << endl;
 
+	// close file
+	inFile.close();
+
 	return 0;
 }
